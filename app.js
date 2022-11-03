@@ -25,7 +25,7 @@ function PageTransitions() {
             e.target.classList.add('active')
 
             //hide other sections
-            sections.forEach((section) =>{
+            sections.forEach((section)=>{
                 section.classList.remove('active')
             })
 
