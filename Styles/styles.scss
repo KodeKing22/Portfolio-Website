@@ -144,7 +144,8 @@ section {
   }
 }
 
-/*Header-content*/
+// Header content
+
 .header-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -214,7 +215,7 @@ section {
 
 }
 
-/*About*/
+// About section
 
 .about-container {
   display: grid;
@@ -410,7 +411,7 @@ section {
   }
 }
 
-/*Portfolios*/
+// Portfolio section
 
 .port-text{
   padding: 2rem 0;
@@ -487,7 +488,7 @@ section {
   transform: scale(1);
 }
 
-//Blogs Section
+// Blogs Section
 
 .blogs{
   display: grid;
@@ -507,7 +508,7 @@ section {
       img{
         filter: grayscale(0);
         transform: scale(1.1);
-        box-shadow: 0px 4px 15px rgba(0,0,0,0.8);
+        box-shadow: 1px 4px 20px rgba(0,0,0,0.8);
       }
     }
     img{
@@ -541,7 +542,38 @@ section {
   }
 }
 
-/*Independent components*/
+// Contact section
+
+.contact-content-con{
+  display: flex;
+  padding-top: 3.5rem;
+  .left-contact{
+    flex: 2;
+  }
+
+  .right-contact{
+    flex: 3;
+    margin-left: 3rem;
+    .input-control{
+      margin: 1.5 rem 0;
+      input, textarea{
+        border-radius: 30px;
+        font-weight: inherit;
+        font-size: inherit;
+        font-family: inherit;
+        padding: .8rem 1.1rem;
+        outline: none;
+        border: none;
+        background-color: var(--color-grey-5);
+        width: 100%;
+        color: var(--color-white);
+        resize: none;
+      }
+    }
+  }
+}
+
+// Independent components
 
 .btn-con {
   display: flex;
